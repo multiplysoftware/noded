@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  default:
+    desc: run the daemon
+    cmds:
+      - go run ./cmd/daemon
+    silent: true
