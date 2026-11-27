@@ -21,7 +21,7 @@ func (c *MetricsCollector) Collect(ctx context.Context) (*Metrics, error) {
 	}
 
 	return &Metrics{
-		Timestamp: time.Now().UTC(),
+		Time: time.Now().UTC(),
 		Memory: MemoryMetrics{
 			Total:     m.Total,
 			Used:      m.Used,

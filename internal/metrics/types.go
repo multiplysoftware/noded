@@ -3,8 +3,8 @@ package metrics
 import "time"
 
 type Metrics struct {
-	Timestamp time.Time     `json:"time"`
-	Memory    MemoryMetrics `json:"memory"`
+	Time   time.Time     `json:"time"`
+	Memory MemoryMetrics `json:"memory"`
 }
 
 type MemoryMetrics struct {
